@@ -27,6 +27,7 @@ jobs:
           pip install pipenv
           pipenv install --dev
           pip install pytest
+          pip install flask
 
       # Now we run our tests
       - name: Test with pytest
